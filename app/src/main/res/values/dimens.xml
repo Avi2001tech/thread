@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_view_width">332dp</dimen>
+    <dimen name="text_view_height">62dp</dimen>
+    <dimen name="text_view_margin_start">80dp</dimen>
+    <dimen name="text_view_margin_top">519dp</dimen>
+    <dimen name="text_view_margin_end">77dp</dimen>
+    <dimen name="text_view_margin_bottom">50dp</dimen>
+    <dimen name="text_size">34sp</dimen>
+
+</resources>
