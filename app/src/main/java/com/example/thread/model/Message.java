@@ -13,7 +13,7 @@ public class Message {
     private int userId;
 
     @SerializedName("agent_id")
-    private int agentId;
+    private Integer agentId;
 
     @SerializedName("body")
     private String body;
@@ -49,11 +49,11 @@ public class Message {
         this.userId = userId;
     }
 
-    public int getAgentId() {
+    public Integer getAgentId() {
         return agentId;
     }
 
-    public void setAgentId(int agentId) {
+    public void setAgentId(Integer agentId) {
         this.agentId = agentId;
     }
 

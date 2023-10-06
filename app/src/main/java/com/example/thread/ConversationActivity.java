@@ -41,29 +41,29 @@ public class ConversationActivity extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerViewMessages.setLayoutManager(layoutManager);
         recyclerViewMessages.setAdapter(messageAdapter);
-        fetchMessages();
+        //fetchMessages();
     }
 
-    private void fetchMessages() {
-        Call<List<Message>> call = apiService.getAllMessages();
-        call.enqueue(new Callback<List<Message>>() {
-            @Override
-            public void onResponse(Call<List<Message>> call, Response<List<Message>> response) {
-                if (response.isSuccessful()) {
-                    List<Message> messageList = response.body();
-                    messageAdapter = new MessageAdapter(messageList);
-                    recyclerViewMessages.setAdapter(messageAdapter);
-                } else {
-                    handleApiError(response);
-                }
-            }
-
-            @Override
-            public void onFailure(Call<List<Message>> call, Throwable t) {
-                handleNetworkError(t);
-            }
-        });
-    }
+//    private void fetchMessages() {
+//        Call<List<Message>> call = apiService.getAllMessages(authToken);
+//        call.enqueue(new Callback<List<Message>>() {
+//            @Override
+//            public void onResponse(Call<List<Message>> call, Response<List<Message>> response) {
+//                if (response.isSuccessful()) {
+//                    List<Message> messageList = response.body();
+//                    messageAdapter = new MessageAdapter(messageList);
+//                    recyclerViewMessages.setAdapter(messageAdapter);
+//                } else {
+//                    handleApiError(response);
+//                }
+//            }
+//
+//            @Override
+//            public void onFailure(Call<List<Message>> call, Throwable t) {
+//                handleNetworkError(t);
+//            }
+//        });
+//    }
 
     private void handleApiError(Response<List<Message>> response) {
         int statusCode = response.code();

@@ -5,11 +5,13 @@
       <map>
         <entry key="..\:/Android_studio/Thread/app/src/main/res/drawable/button_background.xml" value="0.164" />
         <entry key="..\:/Android_studio/Thread/app/src/main/res/layout/activity_conversation.xml" value="0.23229166666666667" />
+        <entry key="..\:/Android_studio/Thread/app/src/main/res/layout/activity_conversation_detail.xml" value="0.23229166666666667" />
         <entry key="..\:/Android_studio/Thread/app/src/main/res/layout/activity_login.xml" value="0.23229166666666667" />
         <entry key="..\:/Android_studio/Thread/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
         <entry key="..\:/Android_studio/Thread/app/src/main/res/layout/activity_message_threads.xml" value="0.23229166666666667" />
         <entry key="..\:/Android_studio/Thread/app/src/main/res/layout/button_background.xml" value="0.23125" />
         <entry key="..\:/Android_studio/Thread/app/src/main/res/layout/item_message.xml" value="0.23229166666666667" />
+        <entry key="..\:/Android_studio/Thread/app/src/main/res/layout/list_item_message.xml" value="0.1734375" />
       </map>
     </option>
   </component>
